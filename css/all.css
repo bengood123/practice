@@ -370,3 +370,10 @@ body{
 	font-weight: bolder;
 	cursor: pointer;
 }
+/* work--------------------------------------------------------*/
+.header-work{
+	background-image: url(../images/123.png);
+	background-size: contain;
+	width: 756px;
+	height: 1008px;
+}

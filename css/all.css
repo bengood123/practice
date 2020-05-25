@@ -313,3 +313,60 @@ body{
 	margin: 10px 0;
 	line-height: 1.5;
 }
+.class-content h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: bolder;
+	color: #00cc99;
+}	
+.class-content span{
+	font-size: 18px;
+	color: #b9b9b9;
+	padding: 0 190px 0 20px;
+}
+.class-content-table{
+	margin: 20px auto;
+}
+.class-content-table th,.class-content-table td{
+	text-align: left;
+	padding: 15px 450px 15px 15px;
+}
+.class-content th{
+	font-weight: bolder;
+	background-color: #ebebeb;
+}
+.class-content td{
+	color: #9b9b9b;
+}
+.class-QA{
+	background-image: url(../images/footer-bg.png);
+	width: 1024px;
+	height: 396px;
+	display: flex;
+	justify-content: center;
+}
+.class-QA p{
+	font-size: 36px;
+	font-weight: bolder;
+	padding: 130px 0 0 50px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+}
+.class-QA-name {
+	margin: 168px 0;
+}
+.class-QA-name input{
+	padding-right: 150px;
+}
+.class-QA-name input[type="submit"]{
+	margin-left: 220px;
+	font-size: 18px;
+	background-color: #00cc99;
+	color: white;
+	padding: 15px;
+	letter-spacing: 5px;
+	border-radius: 10px;
+	border: 1px solid #00cc99;
+	font-weight: bolder;
+	cursor: pointer;
+}

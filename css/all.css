@@ -372,10 +372,41 @@ body{
 }
 /* work--------------------------------------------------------*/
 .header-work{
-	background-image: url(../images/123.png);
+	background-image: url(../images/FotoJet.png);
 	background-size: contain;
-	width: 756px;
-	height: 1008px;
+	width: 1024px;
+	height: 1365px;
+}
+.topbar-work h1{
+	padding: 20px;
+}
+
+.topbar-work ul{
+	float: right;
+}
+.topbar-work ul li{
+	float: left;
+}
+.topbar-work li a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	padding: 15px;
+	margin-right: 20px;
+}
+.topbar-work li a:hover{
+	color: #00cc99;
+	border-bottom: 3px solid #00cc99;
+}
+.topbar-work h1 a{
+	background-image: url(../images/456.png);
+	width: 128px;
+	height: 128px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 101%;
+	float: left;
 }
 .work-btn h2{
     color: white;

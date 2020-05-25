@@ -45,13 +45,8 @@ table {
 body{
 	font-family: Arial, Helvetica, sans-serif;
 }
-.footer{
-	background-image: url(../images/footerbg_02.png);
-	width: 1024px;
-	height: 133px;
-}
 .wrap {
-    width: 1000px;
+    width: 1024px;
     margin: 0 auto;
 }
 .header{
@@ -191,4 +186,130 @@ body{
 }
 .content-color{
 	color: #2ec6a0;
+}
+.QA{
+	background-image: url(../images/footer-bg.png);
+	width: 1024px;
+	height: 396px;
+	display: flex;
+	justify-content: space-between;
+}
+.QA p{
+	font-size: 36px;
+	font-weight: bolder;
+	padding: 170px 0 0 60px;
+	line-height: 1.5;
+	letter-spacing: 2px;
+}
+.QA-form {
+	padding: 170px 60px 0 0;
+}
+.QA-form input{
+	padding: 5px;
+	margin-bottom: 15px;
+}
+.QA-form input[type="submit"]{
+	margin-left: 220px;
+	font-size: 18px;
+	background-color: #00cc99;
+	color: white;
+	padding: 15px;
+	letter-spacing: 5px;
+	border-radius: 10px;
+	border: 1px solid #00cc99;
+	font-weight: bolder;
+	cursor: pointer;
+}
+/* footer-------------------------------------------------- */
+.footer {
+	background-image: url(../images/footerbg_01.png);
+	width: 1024px;
+	height: 133px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer img{
+	padding-left: 30px;
+}
+.footer-logo img {
+	padding: 0 15px 0 10px;
+}
+/* class----------------------------------------------------*/
+.class-header {	
+	background-image: url(../images/class-header.png);
+	width: 1024px;
+	height: 560px;
+}
+.class-btn h2{
+	color: white;
+	font-size: 48px;
+	font-weight: bolder;
+	line-height: 1.1;
+	padding: 130px 0 0 30px;
+}
+.class-btn span{
+	color: #00cc99;
+	font-size: 24px;
+}
+.class-btn input{
+		background-color: #00cc99;
+		color: white;
+		border: 1px solid #00cc99;
+		border-radius: 10px;
+		box-shadow: 2px 2px 3px #00cc99;
+		font-size: 24px;
+		font-weight: bolder;
+		padding: 10px;
+		margin: 20px 0 0 40px;
+		cursor: pointer;
+}
+.class-menu-info {
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+.class-menu-info p{
+	color: #00cc99;
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 60px 20px 20px 30px;
+	line-height: 1.5;
+}
+.class-menu-info span{
+	color: black;
+	font-weight: bolder;
+}
+.class-menu-info ul {
+	margin-top: 50px;
+}
+.class-menu-info li{
+	font-weight: bolder;
+	list-style: disc;
+	color: #9b9b9b;
+	line-height: 1.5;
+	margin-left: 70px;
+	padding-left: 20px;
+}
+
+.class-menu-special h2{
+	font-size: 36px;
+	color: #00cc99;
+	font-weight: bolder;
+	text-align: center;
+	padding: 20px 40px;
+}
+.class-menu-special span{
+	font-size: 18px;
+	color: #9b9b9b;
+	padding-left: 15px;
+}
+.class-menu-special ul {
+	padding: 10px 200px 30px 200px;
+}
+.class-menu-special li{
+	list-style: decimal;
+	font-size: 18px;
+	margin: 10px 0;
+	line-height: 1.5;
 }

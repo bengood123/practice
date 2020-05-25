@@ -377,3 +377,26 @@ body{
 	width: 756px;
 	height: 1008px;
 }
+.work-btn h2{
+    color: white;
+	font-size: 48px;
+	font-weight: bolder;
+	line-height: 1.1;
+	padding: 130px 0 0 30px;
+}
+.work-btn span{
+	color: #00cc99;
+	font-size: 24px;
+}
+.work-btn input{
+	background-color: #00cc99;
+	color: white;
+	border: 1px solid #00cc99;
+	border-radius: 10px;
+	box-shadow: 2px 2px 3px #00cc99;
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 10px;
+	margin: 20px 0 0 40px;
+	cursor: pointer;
+}
